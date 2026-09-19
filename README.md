@@ -1,2 +1,64 @@
 # entitas
 humanoid asisten
+# ==========================================================
+# 1. KEAMANAN & KUNCI API (PALING PENTING)
+# ==========================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.jks
+*.keystore
+client_secret*.json
+google-services.json
+credentials.json
+token.json
+
+# ==========================================================
+# 2. JAVASCRIPT / NODE / REACT NATIVE / EXPO
+# ==========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.expo/
+.expo-shared/
+web-build/
+dist/
+
+# ==========================================================
+# 3. PYTHON (JIKA PAKAI MODUL AI PYTHON)
+# ==========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+
+# ==========================================================
+# 4. BUILD OUTPUT (EXE & APK)
+# ==========================================================
+*.exe
+*.apk
+*.aab
+*.zip
+*.tar.gz
+
+# ==========================================================
+# 5. SISTEM OPERASI & EDITOR
+# ==========================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
